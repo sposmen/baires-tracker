@@ -10,7 +10,7 @@ NodeJS `v12` or greater (to have multiple versions of NodeJS you can use [NVM](h
 
 `npm install @sposmen/baires-tracker -g`
 
-In the `$HOME/.bairestracker` create a `config.json file with the followed structure
+In the `$HOME/.bairestracker` create a `config.json` file with the followed structure
 
 ```js
 {
@@ -63,3 +63,7 @@ Options:
   -d, --description <text>  description of what was done (default: "Worked")
   -h, --help                output usage information
 ```
+
+### Thanks
+
+Thanks to @eyscode for his work on https://github.com/eyscode/timetracker which was an inspiration to this one.

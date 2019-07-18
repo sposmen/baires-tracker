@@ -1,6 +1,6 @@
 {
   "name": "@sposmen/baires-tracker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NodeJS Baires time tracker\n\nThanks to @eyscode for his work on https://github.com/eyscode/timetracker which was an inspiration to this one.",
   "main": "bin/bairestracker",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/sposmen/baires-tracker/issues"
   },
   "bin": {
-    "bairestracker": ".bin/bairestracker"
+    "bairestracker": "bin/bairestracker"
   },
   "author": "",
   "license": "ISC",
