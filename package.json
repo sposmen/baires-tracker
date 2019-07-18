@@ -1,18 +1,38 @@
 {
-  "name": "baires-tracker",
-  "version": "0.0.1",
-  "description": "NodeJS Baires time tracker",
-  "main": "index.js",
+  "name": "@sposmen/baires-tracker",
+  "version": "0.0.2",
+  "description": "NodeJS Baires time tracker\n\nThanks to @eyscode for his work on https://github.com/eyscode/timetracker which was an inspiration to this one.",
+  "main": "bin/bairestracker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sposmen/baires-tracker.git"
+  },
+  "keywords": [
+    "Baires",
+    "BairesDev",
+    "TimeTracker"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "homepage": "https://github.com/sposmen/baires-tracker",
+  "bugs": {
+    "url": "https://github.com/sposmen/baires-tracker/issues"
+  },
+  "bin": {
+    "bairestracker": ".bin/bairestracker"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
     "console.table": "^0.10.0",
+    "datejs": "^1.0.0-rc3",
     "lodash": "^4.17.14",
-    "moment": "^2.24.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
   }

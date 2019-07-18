@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const rp = require('request-promise-native').defaults({jar: true});
 const cheerio = require('cheerio');
-// const moment = require('moment');
+const moment = require('moment');
 require('console.table');
 
 const config = require('./config');
@@ -76,12 +76,10 @@ function show() {
   return login().then(currentTableData)
 }
 
-// show().then((table) => console.table(table));
-
 function loadTimeForm() {
   let loadPostData = {
     // Date
-    'ctl00$ContentPlaceHolder$txtFrom': config.date,
+    'ctl00$ContentPlaceHolder$txtFrom': moment().format('DD/MM/YYYY'),
     // Hours
     'ctl00$ContentPlaceHolder$TiempoTextBox': config.time,
     // Description
@@ -144,4 +142,5 @@ function loadTimeForm() {
     .then(uploadTime)
 }
 
-loadTimeForm().then(currentTableData).then((table) => console.table(table));
+show().then((table) => console.table(table));
+// loadTimeForm().then(currentTableData).then((table) => console.table(table));
