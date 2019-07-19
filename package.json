@@ -1,6 +1,6 @@
 {
   "name": "@sposmen/baires-tracker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS Baires time tracker\n\nThanks to @eyscode for his work on https://github.com/eyscode/timetracker which was an inspiration to this one.",
   "main": "bin/bairestracker",
   "scripts": {
@@ -35,6 +35,7 @@
     "datejs": "^1.0.0-rc3",
     "lodash": "^4.17.14",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.7",
+    "throttler": "0.0.1"
   }
 }
