@@ -44,7 +44,7 @@ Commands:
 ```
 Usage: show [options]
 
-shows current month logged time
+Shows current month logged time.
 
 Options:
   -f, --full  show the full table
@@ -55,13 +55,30 @@ Options:
 ``` 
 Usage: push [options]
 
-push new time to be logged
+Push new time to be logged.
 
 Options:
   -date <date>              date in Datejs formats (default: "today")
-  -H, --hours <hours>       Hours worked in this task
+  -H, --hours <hours>       Hours worked in this task (default: "9")
   -d, --description <text>  description of what was done (default: "Worked")
   -h, --help                output usage information
+```
+
+#### PushCsv
+```
+Usage: pushCsv [options]
+
+Push new time to be logged through a CSV. 
+The headers must be 'date', 'hours' and 'description' similar to the single push. e.g.
+          ----------------------
+header -> date,hours,description
+row 1  -> yesterday,3,Calling
+row 2  -> today,1,Meeting
+row 3  -> 17/09/2019,5,Research
+
+Options:
+  -f, --filename <csv_filenme>  CSV filename
+  -h, --help                    output usage information
 ```
 
 ### Thanks
