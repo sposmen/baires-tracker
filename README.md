@@ -1,6 +1,7 @@
 # Baires Tracker
 
-This is an intentional work to add time work on Baires based on their platform.
+This is an intentional work to add time work on Baires based on their platform. This is *NOT an OFFICIAL* command line 
+app from Baires. So if you decide to use it, it's on your own responsibility.
 
 ## Requirements
 
