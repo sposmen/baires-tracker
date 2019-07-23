@@ -41,18 +41,20 @@ Commands:
   push [options]  push a new logged time
 ```
 
-#### Show
+#### Command `Show`
 ```
 Usage: show [options]
 
 Shows current month logged time.
 
 Options:
-  -f, --full  show the full table
-  -h, --help  output usage information
+  -f, --full         show the full table
+  -s, --summary      summarize based on the day and assignment
+  -o, --onlysummary  show only the summary based on the day and assignment
+  -h, --help         output usage information
 ```
 
-#### Push
+#### Command `Push`
 ``` 
 Usage: push [options]
 
@@ -65,7 +67,7 @@ Options:
   -h, --help                output usage information
 ```
 
-#### PushCsv
+#### Command `PushCsv`
 ```
 Usage: pushCsv [options]
 
