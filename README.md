@@ -21,7 +21,7 @@ In the `$HOME/.bairestracker` create a `config.json` file with the followed stru
   "assignation": "Nuclear Safety Inspection", // Required
   "focalPoint": "Mr. Burns", // Required
   "time": 6, // Optional Default: 9
-  "description": "Clicks" // Optional Default: Worked
+  "desc": "Clicks" // Optional Default: Worked
 }
 ```
 
@@ -63,7 +63,7 @@ Push new time to be logged.
 Options:
   -date <date>              date in Datejs formats (default: "today")
   -H, --hours <hours>       Hours worked in this task (default: "9")
-  -d, --description <text>  description of what was done (default: "Worked")
+  -d, --desc <text>  description of what was done (default: "Worked")
   -h, --help                output usage information
 ```
 
@@ -74,7 +74,7 @@ Usage: pushCsv [options]
 Push new time to be logged through a CSV. 
 The headers must be 'date', 'hours' and 'description' similar to the single push. e.g.
           ----------------------
-header -> date,hours,description
+header -> date,hours,desc
 row 1  -> yesterday,3,Calling
 row 2  -> today,1,Meeting
 row 3  -> 17/09/2019,5,Research
