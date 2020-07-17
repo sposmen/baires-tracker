@@ -33,7 +33,7 @@
     "console.table": "^0.10.0",
     "csv-parser": "^2.3.0",
     "datejs": "^1.0.0-rc3",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "throttler": "0.0.1"
